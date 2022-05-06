@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "",
   "main": "server.js",
+  "engines": {
+    "npm": "14.x"
+  },
   "scripts": {
     "start": "nodemon Backend/Server.js",
     "client": "npm start --prefix frontend",
